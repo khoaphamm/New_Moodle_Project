@@ -1,0 +1,9 @@
+# ninja log v5
+5	467	7319713371109594	Moodle_autogen/timestamp	a0956465ebd3c840
+5	467	7319713371109594	Moodle_autogen/mocs_compilation.cpp	a0956465ebd3c840
+5	467	7319713371109594	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/Moodle_autogen/timestamp	a0956465ebd3c840
+5	467	7319713371109594	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/Moodle_autogen/mocs_compilation.cpp	a0956465ebd3c840
+3071	3275	7319713399751689	Moodle.exe	b949345460e81b5d
+479	2801	7319713395074472	CMakeFiles/Moodle.dir/Moodle_autogen/mocs_compilation.cpp.obj	2e1bb8b5de777767
+467	2866	7319713395723198	CMakeFiles/Moodle.dir/main.cpp.obj	8754412d6e04b592
+473	3071	7319713397768983	CMakeFiles/Moodle.dir/mainwindow.cpp.obj	f0cf8f67de2e2ab4
