@@ -20,6 +20,10 @@ public:
 private slots:
     void on_pushButtonLogin_clicked();
 
+    void on_lineEdit_textChanged(const QString &arg1);
+
+    void on_lineEdit_2_textChanged(const QString &arg1);
+
 private:
     Ui::MainWindow *ui;
 };

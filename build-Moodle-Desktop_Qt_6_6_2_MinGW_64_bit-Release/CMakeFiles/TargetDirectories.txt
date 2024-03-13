@@ -1,0 +1,9 @@
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/Moodle.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/install.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/install/local.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/Moodle_autogen_timestamp_deps.dir
+E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/Moodle_autogen.dir

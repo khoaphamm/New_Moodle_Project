@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen",
+	"CMAKE_BINARY_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle",
+	"CMAKE_SOURCE_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle",
+	"INCLUDE_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/include",
+	"INPUTS" : [ "E:/DIN/Note-taking-2023/CS162_LAB/fblogo.svg" ],
+	"LOCK_FILE" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/Moodle_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "E:/Qt/6.6.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/Moodle_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/images.qrc",
+	"VERBOSITY" : 0
+}
