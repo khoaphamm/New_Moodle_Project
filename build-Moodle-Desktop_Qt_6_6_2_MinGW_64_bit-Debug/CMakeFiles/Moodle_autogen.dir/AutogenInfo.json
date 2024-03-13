@@ -261,6 +261,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.h",
+			"MU",
+			"EWIEGA46WW/moc_studentview.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -340,6 +346,11 @@
 		],
 		[
 			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.cpp",
 			"MU",
 			null
 		]

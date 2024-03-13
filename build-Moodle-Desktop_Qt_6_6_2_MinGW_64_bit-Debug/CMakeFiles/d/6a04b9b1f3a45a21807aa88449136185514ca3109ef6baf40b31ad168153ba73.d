@@ -6,6 +6,9 @@ Moodle_autogen/timestamp: \
   E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.cpp \
   E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.h \
   E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.ui \
+  E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.cpp \
+  E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.h \
+  E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.ui \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \

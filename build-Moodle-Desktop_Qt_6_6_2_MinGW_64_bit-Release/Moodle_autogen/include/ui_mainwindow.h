@@ -76,6 +76,7 @@ public:
 "QLineEdit:focus {\n"
 "    color: black;\n"
 "}"));
+        lineEdit_2->setEchoMode(QLineEdit::Password);
         pushButtonLogin = new QPushButton(groupBox);
         pushButtonLogin->setObjectName("pushButtonLogin");
         pushButtonLogin->setGeometry(QRect(30, 250, 401, 51));
@@ -128,6 +129,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         groupBox->setTitle(QString());
         lineEdit->setPlaceholderText(QCoreApplication::translate("MainWindow", "Username", nullptr));
+        lineEdit_2->setText(QString());
         lineEdit_2->setPlaceholderText(QCoreApplication::translate("MainWindow", "Password", nullptr));
         pushButtonLogin->setText(QCoreApplication::translate("MainWindow", "Log in", nullptr));
         label->setText(QString());

@@ -1,15 +1,15 @@
 # ninja log v5
-3	1038	7320040969739510	Moodle_autogen/timestamp	b7a8e4fdd3f26b1
-3	1038	7320040969739510	Moodle_autogen/mocs_compilation.cpp	b7a8e4fdd3f26b1
-3	1038	7320040969739510	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/timestamp	b7a8e4fdd3f26b1
-3	1038	7320040969739510	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/mocs_compilation.cpp	b7a8e4fdd3f26b1
-1039	1148	7320040971677536	Moodle_autogen/EWIEGA46WW/qrc_images.cpp	8fc41001faaca25a
+27	242	7320487615063697	Moodle_autogen/timestamp	b7a8e4fdd3f26b1
+27	242	7320487615063697	Moodle_autogen/mocs_compilation.cpp	b7a8e4fdd3f26b1
+27	242	7320487615063697	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/timestamp	b7a8e4fdd3f26b1
 1039	1148	7320040971677536	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/EWIEGA46WW/qrc_images.cpp	8fc41001faaca25a
+27	242	7320487615063697	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/mocs_compilation.cpp	b7a8e4fdd3f26b1
+1039	1148	7320040971677536	Moodle_autogen/EWIEGA46WW/qrc_images.cpp	8fc41001faaca25a
 1047	1411	7320040974309961	Moodle_autogen/EWIEGA46WW/qrc_font.cpp	8bfe0b1c7d192003
 1047	1411	7320040974309961	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/EWIEGA46WW/qrc_font.cpp	8bfe0b1c7d192003
 1425	1623	7320040976486021	CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_images.cpp.obj	c1158ba644810d66
 1444	5003	7320041010299742	CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_font.cpp.obj	8e7cb16d0dd19719
+3062	3722	7320487649837980	Moodle.exe	b6702dbbc6905c41
 1418	5383	7320041014117482	CMakeFiles/Moodle.dir/main.cpp.obj	bcf05caf08cef819
 1412	5519	7320041015493797	CMakeFiles/Moodle.dir/Moodle_autogen/mocs_compilation.cpp.obj	91c9e9faea167f42
-1433	6195	7320041022208730	CMakeFiles/Moodle.dir/mainwindow.cpp.obj	1628b14c6596b0a
-6196	6523	7320041025364492	Moodle.exe	b6702dbbc6905c41
+245	3062	7320487643280129	CMakeFiles/Moodle.dir/mainwindow.cpp.obj	1628b14c6596b0a

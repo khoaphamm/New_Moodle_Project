@@ -73,6 +73,14 @@ build CMakeFiles/Moodle.dir/mainwindow.cpp.obj: CXX_COMPILER__Moodle_unscanned_D
   OBJECT_DIR = CMakeFiles\Moodle.dir
   OBJECT_FILE_DIR = CMakeFiles\Moodle.dir
 
+build CMakeFiles/Moodle.dir/studentview.cpp.obj: CXX_COMPILER__Moodle_unscanned_Debug E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.cpp || cmake_object_order_depends_target_Moodle
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Moodle.dir\studentview.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/Moodle_autogen/include -isystem E:/Qt/6.6.2/mingw_64/include/QtCore -isystem E:/Qt/6.6.2/mingw_64/include -isystem E:/Qt/6.6.2/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.6.2/mingw_64/include/QtWidgets -isystem E:/Qt/6.6.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Moodle.dir
+  OBJECT_FILE_DIR = CMakeFiles\Moodle.dir
+
 build CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_images.cpp.obj: CXX_COMPILER__Moodle_unscanned_Debug E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/Moodle_autogen/EWIEGA46WW/qrc_images.cpp || cmake_object_order_depends_target_Moodle
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Moodle.dir\Moodle_autogen\EWIEGA46WW\qrc_images.cpp.obj.d
@@ -97,7 +105,7 @@ build CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_font.cpp.obj: CXX_COMP
 #############################################
 # Link the executable Moodle.exe
 
-build Moodle.exe: CXX_EXECUTABLE_LINKER__Moodle_Debug CMakeFiles/Moodle.dir/Moodle_autogen/mocs_compilation.cpp.obj CMakeFiles/Moodle.dir/main.cpp.obj CMakeFiles/Moodle.dir/mainwindow.cpp.obj CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_images.cpp.obj CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_font.cpp.obj | E$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Gui.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a E$:/Qt/6.6.2/mingw_64/lib/libQt6EntryPoint.a || Moodle_autogen Moodle_autogen_timestamp_deps
+build Moodle.exe: CXX_EXECUTABLE_LINKER__Moodle_Debug CMakeFiles/Moodle.dir/Moodle_autogen/mocs_compilation.cpp.obj CMakeFiles/Moodle.dir/main.cpp.obj CMakeFiles/Moodle.dir/mainwindow.cpp.obj CMakeFiles/Moodle.dir/studentview.cpp.obj CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_images.cpp.obj CMakeFiles/Moodle.dir/Moodle_autogen/EWIEGA46WW/qrc_font.cpp.obj | E$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Gui.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a E$:/Qt/6.6.2/mingw_64/lib/libQt6EntryPoint.a || Moodle_autogen Moodle_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = E:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a  E:/Qt/6.6.2/mingw_64/lib/libQt6Gui.a  E:/Qt/6.6.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  E:/Qt/6.6.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -184,7 +192,7 @@ build Moodle_autogen_timestamp_deps: phony CMakeFiles/Moodle_autogen_timestamp_d
 #############################################
 # Utility command for Moodle_autogen
 
-build Moodle_autogen: phony CMakeFiles/Moodle_autogen Moodle_autogen/include/ui_mainwindow.h Moodle_autogen/timestamp Moodle_autogen/mocs_compilation.cpp Moodle_autogen_timestamp_deps
+build Moodle_autogen: phony CMakeFiles/Moodle_autogen Moodle_autogen/include/ui_mainwindow.h Moodle_autogen/include/ui_studentview.h Moodle_autogen/timestamp Moodle_autogen/mocs_compilation.cpp Moodle_autogen_timestamp_deps
 
 
 #############################################
@@ -200,7 +208,7 @@ build Moodle_autogen/timestamp Moodle_autogen/mocs_compilation.cpp | ${cmake_nin
 #############################################
 # Custom command for Moodle_autogen\EWIEGA46WW\qrc_images.cpp
 
-build Moodle_autogen/EWIEGA46WW/qrc_images.cpp | ${cmake_ninja_workdir}Moodle_autogen/EWIEGA46WW/qrc_images.cpp: CUSTOM_COMMAND E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/images.qrc CMakeFiles/Moodle_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json E$:/DIN/Note-taking-2023/CS162_LAB/fblogo.svg E$:/Qt/6.6.2/mingw_64/./bin/rcc.exe || Moodle_autogen Moodle_autogen_timestamp_deps
+build Moodle_autogen/EWIEGA46WW/qrc_images.cpp | ${cmake_ninja_workdir}Moodle_autogen/EWIEGA46WW/qrc_images.cpp: CUSTOM_COMMAND E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/images.qrc CMakeFiles/Moodle_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/loginpageAsset/fblogo.svg E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/loginpageAsset/FITLogo.png E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/loginpageAsset/hide.png E$:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/loginpageAsset/show.png E$:/Qt/6.6.2/mingw_64/./bin/rcc.exe || Moodle_autogen Moodle_autogen_timestamp_deps
   COMMAND = cmd.exe /C "cd /D E:\DIN\Note-taking-2023\CS162_LAB\New_Moodle_Project\build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/Moodle_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for images.qrc
   restat = 1
@@ -218,13 +226,13 @@ build Moodle_autogen/EWIEGA46WW/qrc_font.cpp | ${cmake_ninja_workdir}Moodle_auto
 #############################################
 # Phony custom command for CMakeFiles\Moodle_autogen_timestamp_deps
 
-build CMakeFiles/Moodle_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Moodle_autogen_timestamp_deps: phony E$:/Qt/6.6.2/mingw_64/./bin/uic.exe E$:/Qt/6.6.2/mingw_64/./bin/moc.exe E$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/Moodle_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Moodle_autogen_timestamp_deps: phony E$:/Qt/6.6.2/mingw_64/./bin/uic.exe E$:/Qt/6.6.2/mingw_64/./bin/moc.exe E$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\Moodle_autogen
 
-build CMakeFiles/Moodle_autogen Moodle_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/Moodle_autogen ${cmake_ninja_workdir}Moodle_autogen/include/ui_mainwindow.h: phony Moodle_autogen/timestamp || Moodle_autogen_timestamp_deps
+build CMakeFiles/Moodle_autogen Moodle_autogen/include/ui_mainwindow.h Moodle_autogen/include/ui_studentview.h | ${cmake_ninja_workdir}CMakeFiles/Moodle_autogen ${cmake_ninja_workdir}Moodle_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}Moodle_autogen/include/ui_studentview.h: phony Moodle_autogen/timestamp || Moodle_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

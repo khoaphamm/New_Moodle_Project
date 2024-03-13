@@ -52,12 +52,20 @@ MainWindow::MainWindow(QWidget *parent)
     // Password line
 
     font2.setPointSize(12);
-    ui->lineEdit_2->setFont(font2);
+    ui->lineEditPassword->setFont(font2);
+
+    //Hide password
+
+    // Set the initial icon
+    ui->lineEditPassword->setEchoMode(QLineEdit::Password);
+    ui->pushButtonShowPassword->setIcon(QIcon(":/loginpageAsset/hide.png"));
+
+    // Connect the clicked signal to a slot
+    connect(ui->pushButtonShowPassword, &QPushButton::clicked, this, &MainWindow::togglePasswordVisibility);
+
+    connect(ui->lineEditPassword, &QLineEdit::returnPressed, this, &MainWindow::on_pushButtonLogin_clicked);
 
 
-    // QFontMetrics fm(font2);
-    // QString elidedText = fm.elidedText("Password", Qt::ElideRight, ui->lineEdit_2->width());
-    // ui->lineEdit_2->setPlaceholderText(elidedText);
 
 
 
@@ -73,7 +81,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     //Enter to login
     connect(ui->lineEdit, &QLineEdit::returnPressed, this, &MainWindow::on_pushButtonLogin_clicked);
-    connect(ui->lineEdit_2, &QLineEdit::returnPressed, this, &MainWindow::on_pushButtonLogin_clicked);
+    connect(ui->lineEditPassword, &QLineEdit::returnPressed, this, &MainWindow::on_pushButtonLogin_clicked);
 }
 
 MainWindow::~MainWindow()
@@ -84,7 +92,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButtonLogin_clicked()
 {
     QString username = ui->lineEdit->text();
-    QString password = ui->lineEdit_2->text();
+    QString password = ui->lineEditPassword->text();
 
     if (username == "admin" && password == "password") {
         // Login successful
@@ -106,14 +114,31 @@ void MainWindow::on_lineEdit_textChanged(const QString &arg1)
 
 
 
-void MainWindow::on_lineEdit_2_textChanged(const QString &arg1)
+void MainWindow::on_lineEditPassword_textChanged(const QString &arg1)
 {
-    ui->lineEdit_2->setStyleSheet("QLineEdit { border: 1px solid rgb(212, 212, 212); border-radius: 10px; color: black; padding-left: 15px; }");
+    ui->lineEditPassword->setStyleSheet("QLineEdit { border: 1px solid rgb(212, 212, 212); border-radius: 10px; color: black; padding-left: 15px; }");
     ui->labelPlaceholder->setVisible(arg1.isEmpty());
 
 }
 
-void MainWindow::on_lineEdit_2_focusChanged(bool hasFocus)
+void MainWindow::on_lineEditPassword_focusChanged(bool hasFocus)
 {
-    ui->labelPlaceholder->setVisible(!hasFocus && ui->lineEdit_2->text().isEmpty());
+    ui->labelPlaceholder->setVisible(!hasFocus && ui->lineEditPassword->text().isEmpty());
+}
+
+void MainWindow::togglePasswordVisibility()
+{
+    QFont font = ui->lineEditPassword->font();
+    if (ui->lineEditPassword->echoMode() == QLineEdit::Password) {
+        // The password is hidden, show it and set the "hide" icon
+        ui->lineEditPassword->setEchoMode(QLineEdit::Normal);
+        ui->pushButtonShowPassword->setIcon(QIcon(":/loginpageAsset/show.png"));
+        font.setPointSize(15); // Set the font size to 15
+    } else {
+        // The password is shown, hide it and set the "unhide" icon
+        ui->lineEditPassword->setEchoMode(QLineEdit::Password);
+        ui->pushButtonShowPassword->setIcon(QIcon(":/loginpageAsset/hide.png"));
+        font.setPointSize(12); // Set the font size back to 12
+    }
+    ui->lineEditPassword->setFont(font); // Apply the font changes
 }

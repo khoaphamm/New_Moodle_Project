@@ -22,7 +22,11 @@ private slots:
 
     void on_lineEdit_textChanged(const QString &arg1);
 
-    void on_lineEdit_2_textChanged(const QString &arg1);
+    void on_lineEditPassword_textChanged(const QString &arg1);
+
+    void on_lineEditPassword_focusChanged(bool hasFocus);
+
+    void togglePasswordVisibility();
 
 private:
     Ui::MainWindow *ui;

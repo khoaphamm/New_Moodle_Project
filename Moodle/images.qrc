@@ -1,6 +1,9 @@
 <RCC>
     <qresource prefix="/images"/>
     <qresource prefix="/">
-        <file>../../fblogo.svg</file>
+        <file>../loginpageAsset/fblogo.svg</file>
+        <file>../loginpageAsset/hide.png</file>
+        <file>../loginpageAsset/show.png</file>
+        <file>../loginpageAsset/FITLogo.png</file>
     </qresource>
 </RCC>
