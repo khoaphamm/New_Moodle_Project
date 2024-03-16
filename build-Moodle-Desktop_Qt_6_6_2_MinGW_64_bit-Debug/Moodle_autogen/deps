@@ -1,5 +1,14 @@
 Moodle_autogen/timestamp: \
 	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/CMakeLists.txt \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/CSVReader.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Class.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Course.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/LinkedList.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/SchoolYear.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Semester.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Staff.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Student.h \
+	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/User.h \
 	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/font.qrc \
 	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/images.qrc \
 	E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/main.cpp \

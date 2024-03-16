@@ -26,6 +26,11 @@
       <height>271</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	border: 3px solid #0866FF; 
+}</string>
+    </property>
     <property name="text">
      <string>View Courses</string>
     </property>
@@ -38,6 +43,11 @@
       <width>271</width>
       <height>271</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	border: 3px solid #0866FF; 
+}</string>
     </property>
     <property name="text">
      <string>Scoreboard</string>
@@ -52,8 +62,23 @@
       <height>271</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	border: 3px solid #0866FF; 
+}</string>
+    </property>
     <property name="text">
      <string>Exit </string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="courseList">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>280</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
     </property>
    </widget>
   </widget>

@@ -2,6 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "LinkedList.h"
+#include "SchoolYear.h"
+#include "Student.h"
+#include "Course.h"
+#include "Semester.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -15,6 +20,7 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    LinkedList<SchoolYear> SchoolYears;
     ~MainWindow();
 
 private slots:
@@ -27,6 +33,8 @@ private slots:
     void on_lineEditPassword_focusChanged(bool hasFocus);
 
     void togglePasswordVisibility();
+
+    void setupPage();
 
 private:
     Ui::MainWindow *ui;

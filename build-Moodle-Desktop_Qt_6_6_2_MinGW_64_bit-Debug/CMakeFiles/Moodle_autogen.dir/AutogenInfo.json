@@ -257,6 +257,60 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/CSVReader.h",
+			"MU",
+			"EWIEGA46WW/moc_CSVReader.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Class.h",
+			"MU",
+			"EWIEGA46WW/moc_Class.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Course.h",
+			"MU",
+			"EWIEGA46WW/moc_Course.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/LinkedList.h",
+			"MU",
+			"EWIEGA46WW/moc_LinkedList.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/SchoolYear.h",
+			"MU",
+			"EWIEGA46WW/moc_SchoolYear.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Semester.h",
+			"MU",
+			"EWIEGA46WW/moc_Semester.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Staff.h",
+			"MU",
+			"EWIEGA46WW/moc_Staff.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Student.h",
+			"MU",
+			"EWIEGA46WW/moc_Student.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/User.h",
+			"MU",
+			"EWIEGA46WW/moc_User.cpp",
+			null
+		],
+		[
 			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",

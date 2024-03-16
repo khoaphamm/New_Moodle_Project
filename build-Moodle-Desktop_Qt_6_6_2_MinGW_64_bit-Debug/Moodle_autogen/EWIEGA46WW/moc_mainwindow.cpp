@@ -46,8 +46,8 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "on_lineEditPassword_textChanged",
     "on_lineEditPassword_focusChanged",
     "hasFocus",
-    "on_pushButtonShowPassword_clicked",
-    "togglePasswordVisibility"
+    "togglePasswordVisibility",
+    "setupPage"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
@@ -60,8 +60,8 @@ struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
     char stringdata5[32];
     char stringdata6[33];
     char stringdata7[9];
-    char stringdata8[34];
-    char stringdata9[25];
+    char stringdata8[25];
+    char stringdata9[10];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSMainWindowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -75,8 +75,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMainWindowENDCLASS_t qt_meta_st
         QT_MOC_LITERAL(68, 31),  // "on_lineEditPassword_textChanged"
         QT_MOC_LITERAL(100, 32),  // "on_lineEditPassword_focusChanged"
         QT_MOC_LITERAL(133, 8),  // "hasFocus"
-        QT_MOC_LITERAL(142, 33),  // "on_pushButtonShowPassword_cli..."
-        QT_MOC_LITERAL(176, 24)   // "togglePasswordVisibility"
+        QT_MOC_LITERAL(142, 24),  // "togglePasswordVisibility"
+        QT_MOC_LITERAL(167, 9)   // "setupPage"
     },
     "MainWindow",
     "on_pushButtonLogin_clicked",
@@ -86,8 +86,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSMainWindowENDCLASS_t qt_meta_st
     "on_lineEditPassword_textChanged",
     "on_lineEditPassword_focusChanged",
     "hasFocus",
-    "on_pushButtonShowPassword_clicked",
-    "togglePasswordVisibility"
+    "togglePasswordVisibility",
+    "setupPage"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -145,9 +145,9 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         // method 'on_lineEditPassword_focusChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'on_pushButtonShowPassword_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'togglePasswordVisibility'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'setupPage'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -163,7 +163,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->on_lineEdit_textChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 2: _t->on_lineEditPassword_textChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 3: _t->on_lineEditPassword_focusChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
-        case 5: _t->togglePasswordVisibility(); break;
+        case 4: _t->togglePasswordVisibility(); break;
+        case 5: _t->setupPage(); break;
         default: ;
         }
     }

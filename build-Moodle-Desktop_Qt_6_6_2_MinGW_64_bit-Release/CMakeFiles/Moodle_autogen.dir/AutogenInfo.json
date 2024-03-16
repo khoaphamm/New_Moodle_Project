@@ -247,12 +247,88 @@
 		"E:/Qt/6.6.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"E:/Qt/6.6.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
 		"E:/Qt/6.6.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
-		"E:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake"
+		"E:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
+		"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/images.qrc",
+		"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/font.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle",
 	"DEP_FILE" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Moodle_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/CSVReader.h",
+			"MU",
+			"EWIEGA46WW/moc_CSVReader.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Class.h",
+			"MU",
+			"EWIEGA46WW/moc_Class.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Course.h",
+			"MU",
+			"EWIEGA46WW/moc_Course.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/LinkedList.h",
+			"MU",
+			"EWIEGA46WW/moc_LinkedList.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/LinkedList_impl.h",
+			"MU",
+			"EWIEGA46WW/moc_LinkedList_impl.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/SchoolYear.h",
+			"MU",
+			"EWIEGA46WW/moc_SchoolYear.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Semester.h",
+			"MU",
+			"EWIEGA46WW/moc_Semester.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Staff.h",
+			"MU",
+			"EWIEGA46WW/moc_Staff.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Student.h",
+			"MU",
+			"EWIEGA46WW/moc_Student.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/User.h",
+			"MU",
+			"EWIEGA46WW/moc_User.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.h",
+			"MU",
+			"EWIEGA46WW/moc_studentview.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/include",
 	"MOC_COMPILATION_FILE" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/mocs_compilation.cpp",
@@ -322,7 +398,29 @@
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
 	"SETTINGS_FILE" : "E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/CMakeFiles/Moodle_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : [],
+	"SOURCES" : 
+	[
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Student.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/studentview.cpp",
+			"MU",
+			null
+		]
+	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],

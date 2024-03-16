@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -26,6 +27,7 @@ public:
     QPushButton *courseButton;
     QPushButton *scoreboardButton;
     QPushButton *exitButton;
+    QListWidget *courseList;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -40,12 +42,24 @@ public:
         courseButton = new QPushButton(centralwidget);
         courseButton->setObjectName("courseButton");
         courseButton->setGeometry(QRect(20, 0, 271, 271));
+        courseButton->setStyleSheet(QString::fromUtf8("QPushButton:hover{\n"
+"	border: 3px solid #0866FF; \n"
+"}"));
         scoreboardButton = new QPushButton(centralwidget);
         scoreboardButton->setObjectName("scoreboardButton");
         scoreboardButton->setGeometry(QRect(310, 0, 271, 271));
+        scoreboardButton->setStyleSheet(QString::fromUtf8("QPushButton:hover{\n"
+"	border: 3px solid #0866FF; \n"
+"}"));
         exitButton = new QPushButton(centralwidget);
         exitButton->setObjectName("exitButton");
         exitButton->setGeometry(QRect(600, 0, 281, 271));
+        exitButton->setStyleSheet(QString::fromUtf8("QPushButton:hover{\n"
+"	border: 3px solid #0866FF; \n"
+"}"));
+        courseList = new QListWidget(centralwidget);
+        courseList->setObjectName("courseList");
+        courseList->setGeometry(QRect(290, 280, 256, 192));
         StudentView->setCentralWidget(centralwidget);
         menubar = new QMenuBar(StudentView);
         menubar->setObjectName("menubar");

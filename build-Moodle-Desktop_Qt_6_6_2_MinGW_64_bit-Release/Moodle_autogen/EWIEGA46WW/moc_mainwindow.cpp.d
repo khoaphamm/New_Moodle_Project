@@ -1,5 +1,9 @@
 E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/EWIEGA46WW/moc_mainwindow.cpp: E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/mainwindow.h \
   E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/build-Moodle-Desktop_Qt_6_6_2_MinGW_64_bit-Release/Moodle_autogen/moc_predefs.h \
+  E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Course.h \
+  E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/LinkedList.h \
+  E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/SchoolYear.h \
+  E:/DIN/Note-taking-2023/CS162_LAB/New_Moodle_Project/Moodle/Semester.h \
   E:/Qt/6.6.2/mingw_64/include/QtCore/q20functional.h \
   E:/Qt/6.6.2/mingw_64/include/QtCore/q20memory.h \
   E:/Qt/6.6.2/mingw_64/include/QtCore/q20type_traits.h \

@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "studentview.h"
 #include "./ui_mainwindow.h"
+#include "Course.h"
+#include "Student.h"
 #include <QMessageBox>
 #include <QFontDatabase>
 #include <QPalette>
@@ -16,9 +18,59 @@ QString loadFont(const QString &resourcePath) {
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
+    , SchoolYears()
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setupPage();
+    
+
+    Student student = Student("23125061", "Pham", "Khoa", "", "", "");
+
+    Course course = Course("CS162", "Introduction to Programming", "", "", "", 0, "");
+    Course course2 = Course("MTH252", "Calculus II", "", "", "", 0, "");
+
+    Semester semester = Semester("Fall");
+
+    course.addStudent(student);  
+    course2.addStudent(student);  
+
+    semester.addCourse(course);  
+    semester.addCourse(course2);  
+
+    SchoolYear year = SchoolYear("2023-2024");
+    year.addSemester(semester);
+
+    this->SchoolYears.add(year);
+}
+
+MainWindow::~MainWindow()
+{
+    // Iterate over all SchoolYear objects in SchoolYears
+    while (!SchoolYears.isEmpty()) {
+        SchoolYear year = SchoolYears.removeFirst();
+
+        // Iterate over all Semester objects in each SchoolYear
+        while (!year.semesters.isEmpty()) {
+            Semester semester = year.semesters.removeFirst();
+
+            // Iterate over all Course objects in each Semester
+            while (!semester.courses.isEmpty()) {
+                Course course = semester.courses.removeFirst();
+
+                // Iterate over all Student objects in each Course
+                while (!course.students.isEmpty()) {
+                    course.students.removeFirst();
+                }
+            }
+        }
+    }
+
+    
+    delete ui;
+}
+
+void MainWindow::setupPage(){
     QString font1Family = loadFont(":/font/Helvetica Neue/HelveticaNeue-Bold.otf");
     QString font2Family = loadFont(":/font/HelveticaWorld-Regular.ttf");
 
@@ -54,21 +106,13 @@ MainWindow::MainWindow(QWidget *parent)
     font2.setPointSize(12);
     ui->lineEditPassword->setFont(font2);
 
-    //Hide password
-
     // Set the initial icon
     ui->lineEditPassword->setEchoMode(QLineEdit::Password);
     ui->pushButtonShowPassword->setIcon(QIcon(":/loginpageAsset/hide.png"));
 
     // Connect the clicked signal to a slot
     connect(ui->pushButtonShowPassword, &QPushButton::clicked, this, &MainWindow::togglePasswordVisibility);
-
     connect(ui->lineEditPassword, &QLineEdit::returnPressed, this, &MainWindow::on_pushButtonLogin_clicked);
-
-
-
-
-
 
     // for placeholder Qlabel
     font2.setPointSize(15);
@@ -78,25 +122,19 @@ MainWindow::MainWindow(QWidget *parent)
     ui->labelPlaceholder->setPalette(palette);
     ui->labelPlaceholder->setAttribute(Qt::WA_TransparentForMouseEvents); // Make it click-through-able
 
-
     //Enter to login
     connect(ui->lineEdit, &QLineEdit::returnPressed, this, &MainWindow::on_pushButtonLogin_clicked);
     connect(ui->lineEditPassword, &QLineEdit::returnPressed, this, &MainWindow::on_pushButtonLogin_clicked);
 }
 
-MainWindow::~MainWindow()
-{
-    delete ui;
-}
-
 void MainWindow::on_pushButtonLogin_clicked()
 {
-    QString username = ui->lineEdit->text();
-    QString password = ui->lineEditPassword->text();
+    std::string username = ui->lineEdit->text().toStdString();
+    std::string password = ui->lineEditPassword->text().toStdString();
 
-    if (username == "admin" && password == "password") {
+    if (username == "23125061" && password == "password") {
         // Login successful
-        StudentView* studentView = new StudentView(this);
+        StudentView* studentView = new StudentView(this, this, username);
         studentView->show();
         this->hide(); // Hide the MainWindow
     } else {

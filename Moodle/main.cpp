@@ -1,6 +1,9 @@
 #include "mainwindow.h"
 
 #include <QApplication>
+#include <QListWidget>
+
+
 
 int main(int argc, char *argv[])
 {

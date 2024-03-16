@@ -226,7 +226,7 @@ build Moodle_autogen/EWIEGA46WW/qrc_font.cpp | ${cmake_ninja_workdir}Moodle_auto
 #############################################
 # Phony custom command for CMakeFiles\Moodle_autogen_timestamp_deps
 
-build CMakeFiles/Moodle_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Moodle_autogen_timestamp_deps: phony E$:/Qt/6.6.2/mingw_64/./bin/uic.exe E$:/Qt/6.6.2/mingw_64/./bin/moc.exe E$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a
+build CMakeFiles/Moodle_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Moodle_autogen_timestamp_deps: phony E$:/Qt/6.6.2/mingw_64/./bin/moc.exe E$:/Qt/6.6.2/mingw_64/./bin/uic.exe E$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a E$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a
 
 
 #############################################
