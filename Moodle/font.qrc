@@ -3,5 +3,6 @@
     <qresource prefix="/">
         <file>../font/HelveticaWorld-Regular.ttf</file>
         <file>../font/Helvetica Neue/HelveticaNeue-Bold.otf</file>
+        <file>../font/Helvetica Neue/helveticaneuemedium.ttf</file>
     </qresource>
 </RCC>

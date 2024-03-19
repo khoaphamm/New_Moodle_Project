@@ -5,5 +5,16 @@
         <file>../loginpageAsset/hide.png</file>
         <file>../loginpageAsset/show.png</file>
         <file>../loginpageAsset/FITLogo.png</file>
+        <file>../loginpageAsset/exit.png</file>
+        <file>../loginpageAsset/course.png</file>
+        <file>../loginpageAsset/course_toggled.png</file>
+        <file>../loginpageAsset/exit_toggled.png</file>
+        <file>../loginpageAsset/grade.png</file>
+        <file>../loginpageAsset/grade_toggled.png</file>
+        <file>../loginpageAsset/user.png</file>
+        <file>../loginpageAsset/user_toggled.png</file>
+        <file>../loginpageAsset/menu.png</file>
+        <file>../loginpageAsset/course2.png</file>
+        <file>../loginpageAsset/course2_toggled.png</file>
     </qresource>
 </RCC>

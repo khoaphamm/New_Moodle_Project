@@ -29,7 +29,15 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Class.h Course.h CSVReader.h LinkedList.h  mainwindow.h SchoolYear.h  Staff.h  studentview.h User.h
         mainwindow.cpp  studentview.cpp
         Semester.h
-        Student.h
+        studentwindow.h studentwindow.cpp studentwindow.ui
+
+        data/user.csv
+        data.qrc
+
+
+
+
+
 
     )
 # Define target properties for Android with Qt 6 as:

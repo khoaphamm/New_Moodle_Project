@@ -5,6 +5,8 @@
 #include "Student.h"
 #include <QMessageBox>
 #include <QFontDatabase>
+#include <QFont>
+#include <QCursor>
 #include <QPalette>
 #include <QGraphicsDropShadowEffect>
 
@@ -27,8 +29,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     Student student = Student("23125061", "Pham", "Khoa", "", "", "");
 
-    Course course = Course("CS162", "Introduction to Programming", "", "", "", 0, "");
-    Course course2 = Course("MTH252", "Calculus II", "", "", "", 0, "");
+    Course course = Course("CS162", "Introduction to Programming", "23APCS02", "Dinh Ba Tien", "4", 50, "WED", "S3");
+    Course course2 = Course("MTH252", "Calculus II", "23APCS02", "Phan Thi My Duyen", "4", 50, "FRI", "S1");
 
     Semester semester = Semester("Fall");
 
@@ -89,6 +91,7 @@ void MainWindow::setupPage(){
     QPalette palette = ui->pushButtonLogin->palette();
     palette.setColor(QPalette::ButtonText, Qt::white); // Set the color of the font
     ui->pushButtonLogin->setPalette(palette);
+    ui->pushButtonLogin->setCursor(QCursor(Qt::PointingHandCursor));
 
     //Description part
 
